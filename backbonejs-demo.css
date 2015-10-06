@@ -1,0 +1,86 @@
+.todo-app, h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.new-task {
+  width: 600px;
+}
+
+#todos {
+  padding: 0px;
+}
+
+li.todo-item {
+  list-style-type: none;
+  margin-bottom: 2px;
+}
+
+li.todo-item>span {
+  padding: 2px 2px 1px 2px;
+  font-size: 0.8em;
+}
+
+li.todo-item .high {
+  background-color: #F78181;
+}
+
+li.todo-item .medium {
+  background-color: #F3F781;
+}
+
+li.todo-item .low {
+  background-color: #9FF781;
+}
+
+li.todo-item.high>div{
+  background-color: #F78181;
+}
+
+li.todo-item.medium>div{
+  background-color: #F3F781;
+}
+
+li.todo-item.low>div{
+  background-color: #9FF781;
+}
+
+li.todo-item>div {
+  background-color: #F78181;
+  padding: 1px;
+  font-family: monospace;
+}
+
+.title-edit,
+.todo-item.editing .title {
+  display: none;
+}
+
+.todo-item.editing .title-edit {
+  display: inline-block;
+  width: 90%;
+}
+
+.todo-item .title {
+  text-decoration: none;
+}
+
+.todo-item.completed .title{
+  text-decoration:line-through;
+}
+
+.todo-item .delete {
+  float: right;
+  margin-right: 10px;
+  color: #AAAAAAA;
+}
+
+.todo-item .delete:hover,
+li.todo-item>span:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "backbonejsdemo",
+  "standalone": "backbonejsdemo",
+  "repo": "godserahul1986/backbonejs-demo",
+  "description": "Sandbox demo of backbonejs",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "components/backbone": "*",
+    "components/underscore": "*",
+    "components/jquery": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "scripts/TodoModel.js",
+    "scripts/TodoView.js",
+    "scripts/AppView.js"
+  ],
+  "templates": [
+    "template.hbs",
+    "todo-item.hbs"
+  ],
+  "styles": [
+    "backbonejs-demo.css"
+  ]
+}
